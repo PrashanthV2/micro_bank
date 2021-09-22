@@ -1,0 +1,117 @@
+/* container */
+#dashboard {
+  width: 100%;
+  margin: auto;
+  position: relative;
+  width: 360px;
+  height: 766px;
+  background: #ffffff;
+  border: 1px solid black;
+}
+
+/* header */
+
+.header {
+  position: absolute;
+  width: 360px;
+  height: 64px;
+  left: 0px;
+  top: 0px;
+  background: #d90429;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+.menu {
+  position: absolute;
+  width: 32px;
+  height: 20px;
+  left: 10px;
+  top: 22px;
+}
+.line1 {
+  position: absolute;
+  width: 32px;
+  height: 2px;
+  left: 10px;
+  top: 40px;
+  background: #ffffff;
+}
+.line2 {
+  position: absolute;
+  width: 32px;
+  height: 2px;
+  left: 10px;
+  top: 31px;
+
+  background: #ffffff;
+}
+.line3 {
+  position: absolute;
+  width: 32px;
+  height: 2px;
+  left: 10px;
+  top: 22px;
+
+  background: #ffffff;
+}
+
+.heading {
+  position: absolute;
+  width: 131px;
+  height: 33px;
+  left: 60px;
+  top: 15px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+  color: #ffffff;
+}
+
+.logout {
+  position: absolute;
+  width: 59px;
+  height: 25px;
+  left: 291px;
+  top: 19px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+  text-align: right;
+
+  color: #ffffff;
+}
+
+/* navigation */
+
+#navigation {
+  position: absolute;
+  width: 360px;
+  height: 33px;
+  left: 0px;
+  top: 90px;
+}
+
+.summary {
+  position: absolute;
+  width: 84px;
+  height: 25px;
+  left: 18px;
+  top: 90px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+  color: #ef233c;
+}
