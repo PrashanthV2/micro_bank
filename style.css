@@ -191,12 +191,11 @@
 .login-container {
   width: 50%;
   position: absolute;
-  width: 420px;
+  width: 380px;
   height: 549px;
-  left: 865px;
-  top: 160px;
-  margin: 0 10%;
-  border: 2px solid black;
+  left: 855px;
+  top: 130px;
+  margin: 0 5%;
   padding: 1%;
 }
 
@@ -209,6 +208,10 @@
   font-size: 14px;
   line-height: 19px;
   color: #828282;
+  padding: 10px 0;
+}
+.login-input label {
+  padding: 10px 0;
 }
 .login-input {
   padding: 2%;
@@ -217,8 +220,43 @@
 .login-input input {
   width: 320px;
   height: 45px;
+  margin: 10px 0;
   border: 0;
   outline: none;
   background: #e8e8e8;
   border-radius: 12px;
+}
+.forgot-text {
+  text-align: right;
+}
+.forgot-text a {
+  font-size: 12px;
+  color: #d90429;
+  font-weight: 600;
+  margin-right: 6%;
+  text-decoration: none;
+}
+.login-btn {
+  background: #d90429;
+  box-shadow: 0px 6px 28px 5px rgba(254, 45, 23, 0.3);
+  border-radius: 12px;
+  border: 0;
+  outline: none;
+  color: #ffffff;
+  width: 300px;
+  height: 40px;
+  padding: 2%;
+  margin: 5%;
+  font-size: 16px;
+  text-align: center;
+}
+.create-account {
+  font-size: 14px;
+  line-height: 19px;
+  color: #828282;
+  padding: 10% 5%;
+}
+.create-account span a {
+  text-decoration: none;
+  color: #d90429;
 }
