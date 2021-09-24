@@ -11,22 +11,129 @@
 /* Dashboard */
 
 .nav-bar {
-  position: absolute;
   width: 100%;
-  background: #ffffff;
+  background-color: #ffffff;
   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.12);
 }
-
+.nav-logo {
+  padding: 20px;
+}
+.nav-list {
+  display: flex;
+}
+.nav-items {
+  margin-left: 75%;
+  display: flex;
+}
 .nav-list li {
   list-style: none;
-  border: 2px solid red;
-  padding: 25px;
-}
-.nav-list li a {
-  text-decoration: none;
-  color: #d90429;
+  padding: 20px;
 }
 
+.nav-list li a {
+  text-decoration: none;
+  color: #ffffff;
+  background: #d90429;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.dashboard h3 {
+  font-size: 14px;
+  padding: 2% 3%;
+}
+.tabs {
+  display: flex;
+  background: #ffffff;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.12);
+  border-radius: 12px;
+  width: 95%;
+  margin: auto;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+.summary {
+  margin: 0 35px 0 0;
+  background: #ffffff;
+  border-top: 2px solid #e8544b;
+}
+.summary p {
+  padding: 8px 0;
+  font-weight: bold;
+}
+.details {
+  background: #ffffff;
+  border-top: 2px solid #ffffff;
+}
+.details p {
+  padding: 10px 0;
+}
+
+.summary-details {
+  margin: 1% 2.5%;
+  background: #fff0f3;
+  border: 1px solid rgba(217, 4, 41, 0.2);
+  box-sizing: border-box;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.12);
+  border-radius: 12px;
+}
+.summary-details h5 {
+  color: #1a1a1a;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 0.5% 2%;
+}
+.info {
+  display: flex;
+  padding: 1% 2%;
+  gap: 10%;
+}
+.info li {
+  list-style: none;
+}
+.info li span {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.38);
+}
+.info li p {
+  color: #333333;
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+.services-heading h3 {
+  margin: 1% 2.5%;
+  font-size: 14px;
+}
+.services-heading span {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.current-services {
+  margin: 1% 2.5%;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.12);
+  border-radius: 12px;
+}
+.current-services h5 {
+  color: #1a1a1a;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 0.5% 2%;
+}
+.info li span img {
+  height: 40px;
+  width: 50px;
+}
+.footer {
+  padding: 10px;
+  text-align: center;
+  color: #1a1a1a;
+}
 /* login */
 .container {
   display: flex;
