@@ -69,6 +69,10 @@
 .details p {
   padding: 10px 0;
 }
+.details p a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
 
 .summary-details {
   margin: 1% 2.5%;
@@ -130,8 +134,15 @@
   width: 50px;
 }
 .footer {
-  padding: 10px;
+  position: absolute;
+  width: fit-content;
+  height: 16px;
+  left: 689px;
+  top: 721px;
+
+  font-size: 14px;
   text-align: center;
+
   color: #1a1a1a;
 }
 /* login */
@@ -185,6 +196,10 @@
   text-align: center;
   color: #ffffff;
 }
+.heading a {
+  text-decoration: none;
+  color: #ffffff;
+}
 
 /* login */
 
@@ -216,6 +231,13 @@
 .login-input {
   padding: 2%;
 }
+.login-input img {
+  position: absolute;
+  bottom: 280px;
+  right: 50px;
+  width: 24px;
+  height: 24px;
+}
 
 .login-input input {
   width: 320px;
@@ -225,6 +247,28 @@
   outline: none;
   background: #e8e8e8;
   border-radius: 12px;
+}
+
+.date-input {
+  position: absolute;
+  bottom: 172px;
+  right: 0px;
+  width: 24px;
+  height: 24px;
+}
+.pw-input {
+  position: absolute;
+  bottom: 72px;
+  right: 0px;
+  width: 24px;
+  height: 24px;
+}
+.cpw-input {
+  position: absolute;
+  bottom: -27px;
+  right: 0px;
+  width: 24px;
+  height: 24px;
 }
 .forgot-text {
   text-align: right;
@@ -243,20 +287,95 @@
   border: 0;
   outline: none;
   color: #ffffff;
-  width: 300px;
+  width: 320px;
   height: 40px;
-  padding: 2%;
-  margin: 5%;
+  padding: 2.5%;
+  margin: 5% 10px;
   font-size: 16px;
   text-align: center;
 }
 .create-account {
+  text-align: center;
   font-size: 14px;
   line-height: 19px;
   color: #828282;
-  padding: 10% 5%;
+  padding: 5% 5%;
 }
 .create-account span a {
   text-decoration: none;
   color: #d90429;
+}
+
+/* signup container */
+
+.signup-container {
+  width: 50%;
+  position: absolute;
+  width: 380px;
+  height: 90vh;
+  left: 855px;
+  top: 40px;
+  margin: 0 5%;
+  padding: 1%;
+}
+
+/* details container */
+.transaction-container {
+  width: 95%;
+  height: fit-content;
+  left: 24px;
+  top: 233px;
+  margin: 1% 2.5%;
+  background: #ffffff;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.12);
+  border-radius: 12px;
+  padding: 1% 0;
+  font-size: 14px;
+}
+.details-heading {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1%;
+  color: #828282;
+  margin: 1% 2.5%;
+  align-items: center;
+}
+.details-heading {
+  list-style: none;
+}
+.details-data {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 2.5%;
+  background: rgba(244, 245, 253, 0.5);
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 4px 4px 0px 0px;
+  padding: 5px;
+}
+.details-data img {
+  padding: 5px;
+  margin: 0 5px;
+}
+.summary-tab {
+  margin: 0 35px 0 0;
+  background: #ffffff;
+  border-top: 2px solid #ffffff;
+}
+.summary-tab p {
+  padding: 8px 0;
+}
+.summary-tab p a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+.details-tab {
+  background: #ffffff;
+  border-top: 2px solid #e8544b;
+}
+.details-tab p {
+  padding: 10px 0;
+  font-weight: bold;
 }
